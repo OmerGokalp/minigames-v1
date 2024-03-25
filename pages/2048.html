@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048 Game</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="/styles/2048.css" />
+  </head>
+  <body>
+    <a href="index.html" class="back-link"><img src="/icons/backarrow.png" alt="Back to previous page"></a>
+    <div class="container hide">
+      <div class="heading">
+        <h1>2048</h1>
+        <div class="score-container">
+          Skor:
+          <span id="score">0</span>
+        </div>
+      </div>
+      <div class="grid"></div>
+      <div class="alert">Yön tuşlarıyla oynayınız.</div>
+    </div>
+    <div class="cover-screen">
+      <h2 id="over-text" class="hide">Game Over</h2>
+      <p id="result"></p>
+      <button id="start-button">Start Game</button>
+    </div>
+    <!-- Script -->
+    <script src="/js/2048.js"></script>
+  </body>
+  <footer>
+    
+  </footer>
+</html>
